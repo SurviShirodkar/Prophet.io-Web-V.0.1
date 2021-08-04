@@ -1,0 +1,702 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(fonts/Helvetica\ Neue\ Medium\ Extended.ttf);
+}
+
+/*---------Navbar section Starts----------*/
+#header-section{
+    height: 859px;
+    background: #000E2E 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+#navbar-section{
+    width:100%;
+    height: 89px;
+    background: #091736 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 141px;
+}
+#navbar-section .logo{
+    text-align: left;
+    font: normal normal 30px/37px Helvetica ;
+    letter-spacing: 0px;
+    color: #4CC377;
+    opacity: 1;
+    font-size: 30px;
+}
+#navbar-section button{
+    text-align: center;
+    font: normal normal bold  Helvetica;
+    letter-spacing: 0px;
+    color: #4CC377;
+    opacity: 1;
+    background: #4CC3773C 0% 0% no-repeat padding-box;
+    border: 3px solid #4CC377;
+    border-radius: 5px;
+    opacity: 1;
+    width: 164px;
+    height: 43px;
+    font-size: 14px;
+}
+#navbar-section button:hover{
+   background-color: white;
+   color:#091736;
+   border: 3px solid #4CC377;
+}
+/*-------header content ---------*/
+.header-content{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    text-align: center;
+    margin: auto;
+    /* width: 50%; */
+}
+.header-content h6{
+    margin-top: 10px;
+    text-align: center;
+    font: normal normal bold  Helvetica ;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #4CC377;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.header-content h2{
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 40px;
+    font-weight: normal;
+}
+.header-content p{
+    display: flex;
+    text-align: center;
+    font: normal normal medium  Helvetica ;
+    letter-spacing: 0px;
+    font-size: 15px;
+    color: #B1BCDD;
+    opacity: 1;
+    width: 50%;
+    margin: auto;
+    padding:10px 0px;  
+    
+}
+.header-content button{
+    margin-top: 5px;
+    text-align: center;
+    font: normal normal bold  Helvetica;
+    letter-spacing: 0px;
+    color: #4CC377;
+    opacity: 1;
+    background: #4CC3773C 0% 0% no-repeat padding-box;
+    border: 3px solid #4CC377;
+    border-radius: 5px;
+    opacity: 1;
+    width: 164px;
+    height: 43px;
+    font-size: 14px;
+}
+.header-content img{
+    width: 129px;
+    height: 43px;
+    margin-top: 10px;
+}
+.content-buttons{
+    margin-top: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding:0px 10px;
+
+}
+.header-content button:hover{
+    background-color: white;
+   color:#091736;
+   border: 3px solid #4CC377;
+}
+
+
+.chat-bubble{
+    position: fixed;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    z-index: 1030;
+    left:94%;
+    background: transparent linear-gradient(180deg, #0EE8B6 0%, #2CDCEE 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 12px #00000029;
+    opacity: 1;
+    width:64px;
+    height: 64px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*----------image section --------------*/
+.image-section{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+/*---------features section --------*/
+#features-section{
+    margin-top: 300px;
+    margin-bottom: 170px;
+}
+#features-section p{
+    text-align: center;
+    font: normal normal bold  Helvetica ;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #4CC377;
+    
+    opacity: 1;
+}
+#features-section h3{
+    font-weight: normal;
+}
+#features-section .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    padding:5%;
+}
+#features-section .card:hover{
+    box-shadow: 0 0 50px rgb(228, 226, 226);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+#features-section .card h6{
+    text-align: center;
+    font: Helvetica ;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+#features-section .card p{
+    text-align: center;
+    font: Helvetica ;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #B1BCDD;
+    opacity: 1;
+}
+/*-------etherum section --------*/
+#etherum-section{
+    background: #161E35 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    padding-bottom: 50px;
+    width:100%;
+}
+#etherum-section h6{
+    text-align: center;
+    font: normal normal bold  Helvetica;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #4CC377;
+    text-transform: uppercase;
+    padding:150px 0px 0px 0px ;
+}
+#etherum-section h1{
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+.green-dot{
+    width: 18px;
+    height: 18px;
+    background: #4CC377 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #4CC37786;
+    opacity: 1;
+    border-radius: 50%;
+    margin-right:10px;
+}
+.etherum-button{
+    margin: auto;
+    display: flex;
+    margin-top:10px;
+    justify-content: left;
+    padding-left:10%;
+    align-items: center;
+    width: 100%;
+    height: 59px;
+    background: #1C2540 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal  Helvetica ;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+.etherum-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.stake-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 73px;
+    margin-bottom: 73px;
+
+}
+.stake-section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    height: 140px;
+    background: #111930 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+
+}
+.stake-section2 button{
+    width: 269px;
+    height: 56px;
+    background: #4CC377 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    color:white;
+}
+.stake-section2 button:hover{
+    color:#091736;
+    background-color: white;
+    border:3px solid #4CC377;
+    
+   
+    
+}
+.stake-section2 p{
+    font-size: 22px;
+    text-align: left;
+    font:  Helvetica ;
+    letter-spacing: 0px;
+}
+
+.bitcoin-card{
+    width: 419px;
+    height: 214px;
+    background: #111930 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    margin:20px 0px;
+}
+.Etherum-card{
+    width: 419px;
+    height: 214px;
+    background: #111930 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+    margin:20px 0px;
+}
+.dropdown button{
+    border-radius: 50%;
+}
+.card-head{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    align-items: center;
+}
+.bitcoin-text{
+    text-align: left;
+    font: normal normal bold 22px/27px Helvetica ;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding-left:10px;
+}
+.card-input{
+    height: 55px;
+    background: #141C35 0% 0% no-repeat padding-box;
+    border: 2px solid #1C2540;
+    border-radius: 7px;
+    text-align: left;
+    font: normal normal bold  Helvetica ;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.wallet-text{
+    text-align: left;
+    font: Helvetica ;
+    letter-spacing: 0px;
+    color: #8E97B1;
+    margin-top: 7px;
+}
+
+ .card-etherum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    padding:10%;
+    background: #111930 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    margin-top: 100px;
+}
+ .card-etherum h6{
+    text-align: center;
+    font: Helvetica ;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+ .card-etherum p{
+    text-align: center;
+    font: Helvetica ;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #B1BCDD;
+    opacity: 1;
+}
+/*-----------trading section ---------*/
+#trading-section{
+    margin-top: 100px;
+    padding: 0px 15%;
+}
+#trading-section p{
+    width: 80%;
+    text-align: left;
+    font: Helvetica ;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #8FA4BB;
+}
+#trading-section button{
+    text-align: center;
+    font: normal normal bold  Helvetica;
+    letter-spacing: 0px;
+    color: #4CC377;
+    opacity: 1;
+    background: #4CC3773C 0% 0% no-repeat padding-box;
+    border: 3px solid #4CC377;
+    border-radius: 5px;
+    opacity: 1;
+    width: 164px;
+    height: 43px;
+    font-size: 14px;
+}
+#trading-section button:hover{
+    background-color: white;
+   color:#091736;
+   border: 3px solid #4CC377;
+}
+.trading-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.parent{
+    height: 100%;
+    width: 70%;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border:1px dashed black;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:
+    0 0 0 20px hsl(0, 0%, 100%),
+    0 0 50px rgb(10, 10, 10);
+
+}
+.child{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color:  #D9F4E9;
+    border:10px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .trading-row2{
+      margin-top: 100px;
+  }
+  /*----------questions section----------*/
+  #questions-section{
+    margin-top: 100px;
+    background: #161E35 0% 0% no-repeat padding-box;
+    border:none;
+    padding-bottom: 100px;
+  }
+  #questions-section p{
+     padding-top: 100px;
+    text-align: center;
+    font: normal normal bold  Helvetica ;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #4CC377;
+    text-transform: uppercase;
+    opacity: 1;
+}
+#questions-section h3{
+    font-weight: normal;
+}
+#questions-section .nav {
+    display: flex !important;
+    justify-content: center !important;
+    margin: 60px 0px !important;
+
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    height: 43px;
+    background: #4CC3773C 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal bold  Helvetica ;
+    font-size: 14px;
+    letter-spacing: 0px;
+    align-items: center;
+    color: #4CC377;
+    text-transform: uppercase;
+    border-bottom: 2px solid  #4CC377;;
+}
+.nav-pills a{
+    color:#4CC377;
+}
+/*-------------accordian--------------*/
+#accordion .panel-heading { padding: 0;}
+#accordion .panel-title > a {
+	display: block;
+	padding: 0.4em 0.6em;
+    outline: none;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+#accordion .panel-title > a.accordion-toggle::after, #accordion a[data-toggle="collapse"]::before  {
+    content:'∧';
+    float: left;
+    font-family: 'Glyphicons Halflings';
+	margin-right :1em;
+}
+#accordion .panel-title > a.accordion-toggle.collapsed::after, #accordion a.collapsed[data-toggle="collapse"]::before  {
+    content:"∨";
+}
+.panel-group{
+    width: 80%;
+    margin: auto;
+}
+.card-header .title {
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+.card-header .accicon {
+  float: right;
+  font-size: 20px;  
+  width: 1.2em;
+}
+.card-header{
+  cursor: pointer;
+  border-bottom: none;
+}
+.card{
+  border: 1px solid #ddd;
+}
+.card-body{
+  border-top: 1px solid #ddd;
+}
+.card-header:not(.collapsed) .rotate-icon {
+  transform: rotate(180deg);
+}
+.accordion {
+    margin-top: 100px;
+    width: 80%;
+    margin: auto;
+    color:white;
+    border:none;
+}
+.accordion .card{
+    background-color: rgb(22 30 53); 
+    border:none;
+}
+.accordion .card-header {
+    border-bottom: 1px solid white;
+    padding: .75rem 1.25rem;
+    border:none;
+    margin-bottom: 0;
+    background-color: rgb(22 30 53);
+   
+}
+.accordion .card-body{
+    border-top:none;
+    padding:0px 1.25rem;
+    text-align: left;
+    font: Helvetica ;
+    letter-spacing: 0px;
+    color: #8FA4BB;
+}
+.accordion hr{
+    background-color: #707070;
+}
+/*--------footer---------*/
+footer{
+    background: #161E35 0% 0% no-repeat padding-box;
+    color:white;
+   
+}
+footer .footer-body{
+    border-top: 1px solid  #707070; ;
+    height: 100%;
+    width:100%;
+    display: flex;
+    padding:2%;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    width: 38px;
+    background: #1D2841 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+}
+.footer-links{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer-links p{
+    margin-top:1rem;
+}
+.footer-body h5{
+    text-align: left;
+    font: normal normal bold  Helvetica;
+    font-size: 30px;
+    letter-spacing: 0px;
+    color: #4CC377;
+    }
+.footer-links p{
+    text-align: left;
+    font: normal normal normal  Helvetica ;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #D4D5D8;
+}    
+
+@media only screen and (max-width: 700px) {
+    .content-buttons{
+        flex-direction: column;
+    
+    }
+    #navbar-section{
+      margin-bottom: 84px;
+    }
+    #navbar-section button {
+        width: auto;
+        
+    }
+    .header-content p{
+        width: 80%;
+    }
+    #header-section{
+        height: 750px;
+    }
+    /* .chat-bubble{
+        margin-top: -180px;
+        position: absolute;
+        float: right;
+        left: 75%;
+    } */
+    #features-section {
+        margin-top: 200px;
+        margin-bottom: 20px;
+    }
+    #etherum-section h6 {
+       padding: 102px 0px 0px 0px;
+    }
+    .boxes .box-order:nth-of-type(1) {
+        order: 2;
+      }
+      .trade-order div:nth-of-type(1) {
+        order: 2;
+      }
+    .stake-section{
+        padding:5%;
+        margin-bottom: 0px;
+    }
+    .stake-section2 {
+        padding: 5%;
+        text-align: center;
+        width:100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .stake-section2 p {
+        text-align: center;
+       }
+    .card-etherum {
+         margin-top: 21px;
+         }
+  #trading-section {
+     padding: 0px 5%;
+   }
+.trading-left {
+    margin-top: 20px;
+}
+footer .footer-body {
+   
+    align-items: flex-start;
+    flex-direction: column;
+}
+.footer-links {
+    margin-top:5px ;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.footer-links p {
+    margin-top: 0rem;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+.chat-bubble{
+    left: 75%;
+}
+.parent {
+    height: 80%;
+}
+.trading-row2 {
+    margin-top: 150px;
+}
+.accordion {
+    width: 100%;
+}
+#questions-section {
+    padding-bottom: 50px;
+}
+#trading-section p {
+    width:100%;
+}
+.dropdown-menu.show {
+    transform: translate3d(-120px, 38px, -10px) !important;
+}
+
+.mobile-center{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+}
